@@ -1,0 +1,29 @@
+name: openff-param-fit
+channels:
+  - conda-forge
+  - openeye
+dependencies:
+  - jupyter
+  - mamba
+  - python
+    
+  # MM calculations
+  - ambertools
+  - forcebalance>=1.9.6
+  - geometric
+  - conda-forge::libiconv
+  - ndcctools
+  - openeye-toolkits=2022.1.1
+  - openff-bespokefit>=0.3.0
+  - openff-interchange>=0.3.18
+  - openff-forcefields
+  - openff-nagl
+  - openff-qcsubmit>=0.50.1
+  - openff-toolkit>=0.16.0
+  - openmm 
+  - openmmforcefields>=0.12.0
+  - pymbar=3.1.0
+  - qcportal
+  - qubekit
+  - seaborn
+
